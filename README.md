@@ -1,6 +1,18 @@
 # Control of Split-Flap Display OM 3021
 
+<img src="img/DISPLAY.JPG" width="200" />
+
 This is a small program to control a split flip display (type OM 3021) with a raspberry pi (B+). You can find some rough overview of the required hardware at the schematics supplied in [doc](doc/) folder.
+
+## hardware
+
+There is now way to control these displays without additional hardware. You need at least some 48V supply for the display motor and you need some [connection (board)](doc/Schematics.png) between the rapsberry pi and the display as well. The rest is all about the timing of the control.
+
+<img src="img/RASPI_1.JPG" align="left" width="200" />
+
+<img src="img/RASPI_2.JPG" align="left" width="200" />
+
+<br clear="left"/>
 
 ## build program
 
